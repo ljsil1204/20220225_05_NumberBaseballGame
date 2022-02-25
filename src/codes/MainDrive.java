@@ -54,6 +54,11 @@ public class MainDrive {
 			
 //			321 => {3,2,1} 처럼 세칸 배열로 분리 / 맞춘 S, B판정
 			
+			int[] myNumbers = new int[3];
+			
+			myNumbers[0] = inputNum / 100; 
+			myNumbers[1] = inputNum / 10 % 10; 					
+			myNumbers[2] = inputNum % 10;
 			
 		}
 		
